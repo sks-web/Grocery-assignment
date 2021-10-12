@@ -97,6 +97,7 @@ export default function GroceryList() {
   function filterItem(e) {
     setQuery(e.target.value);
   }
+  // return
 
   return (
     <div className={style.flexContainer}>
