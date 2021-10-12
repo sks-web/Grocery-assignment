@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: solid 1px grey;
+  border-radius: 3px;
+}
+
+button[type="button"] {
+  border: none;
+  padding: 6px;
+  border-radius: 3px;
+  color: white;
+}

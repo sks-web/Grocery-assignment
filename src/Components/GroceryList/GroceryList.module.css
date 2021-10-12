@@ -1,0 +1,43 @@
+.flexContainer {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexContainer > div {
+  margin: 10px;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #eee;
+}
+
+.tableFixHead {
+  overflow-y: auto;
+  max-height: 300px;
+  border: 1px solid #eee;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+}
+
+.bought {
+  background-color: tomato;
+}

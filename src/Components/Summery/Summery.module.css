@@ -1,0 +1,19 @@
+.flexContainer {
+  display: flex;
+  margin: 1rem;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flexContainer > div {
+  margin: 10px;
+  margin-top: 3rem;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  border: none;
+  background-color: rgb(193, 132, 250);
+}
